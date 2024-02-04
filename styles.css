@@ -1,0 +1,287 @@
+.main {
+    min-height:100%;
+    height: auto;
+    background:linear-gradient(0deg, rgba(0, 50, 86, 0.9), rgba(0, 50, 86, 0.9)), url(bg.png);
+    height: 770px; 	
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    font-family: 'Pompiere', sans-serif;
+    margin: 0;
+  }
+
+#logo {
+    margin-left: 43px;
+}
+
+.content {
+    color: white;
+}
+
+.tog {
+    color: #FFA500;
+}
+
+.header {
+    font-weight: 400;
+    font-size: 100px;
+    width: 667px;
+    height: 173px;
+    margin-top: 170px;
+    margin-left: 43px;
+}
+
+p {
+    font-size: 24px;
+    width: 465px;
+    height: 80px;
+}
+
+.join-us {
+    width: 193px;
+    height: 58px;
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFA500;
+    color: white;
+    border-radius: 12px;
+    border: 0px;
+}
+
+.container {
+    color: white;
+    display: flex;
+    gap: 20px;
+    float:right;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+#one {
+    color: #FFA500;
+}
+
+.img1 {
+    width: 590px;
+    height: 390px;
+    position: absolute;
+    top: 155px;
+    left: 770px;
+}
+
+.double-image {
+    display: flex;
+    gap: 65px;
+    position: absolute;
+    top: 619px;
+    left: 770px;
+}
+
+.search {
+    width: 250px;
+    border: none;
+    border-radius: 0px;
+    padding: 5px;
+    color: #989898;
+    height: 18px;
+}
+
+.container2 {
+    position: relative;
+    display: flex;
+    float: right;
+    top: 16px;
+}
+
+.outercont {
+    display: flex;
+    gap: 20px;
+    float: right;
+}
+
+.orange-pic {
+    width: 28px;
+    height: 28px; 
+}
+
+.ourheros {
+    color: #FFA500;
+    margin-top: 425px;
+    height: 70px;
+    margin-left: 43px;
+    font-weight: 400;
+    font-size: 100px;
+}
+
+.p2 {
+    color: #0F4871;
+    margin-left: 43px;
+}
+
+.profile {
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.arrow {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+
+.mid {
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-under {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    font-size: 24px;
+}
+
+.girl {
+    height: 555px;
+    background-image: url(girl.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    height: 60px;
+    width: 60px;
+}
+
+.out {
+    gap: 0px;
+}
+
+.contact {
+    background-image: url(grey.png);
+    background-size: cover;
+    height: 750px;
+}
+
+.content3 {
+    margin-left: 43px;
+    position: absolute;
+    top: 2190px;
+    letter-spacing: 2px;
+    font-family: 'Amiko', sans-serif;
+    font-size: 60px;
+}
+
+.name {
+    width: 235px;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.email {
+    width: 354px;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.message {
+    width: 640px;
+    height: 70px;
+    border-bottom: 1px solid black;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.nadd {
+    display: flex;
+    gap: 50px;
+}
+
+.submit {
+    float: right;
+    width: 193px;
+    height: 58px;
+    margin-top: 50px;
+    background-color: #FFA500;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.right {
+    position: absolute;
+    left: 800px;
+    top: 340px;
+}
+
+.cap {
+    width: 250px;
+    height: 22px;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 60px;
+}
+
+.small {
+    width: 500px;
+    height: 25px;
+    color: #737373;
+    font-size: 20px;
+    margin-top: 0px;
+}
+
+.num {
+    margin-left: -20px;
+    color:#FFA500;
+    width: 257px;
+    height: 25px;
+    font-weight: 900;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+
+.footer {
+    background-color: #FFA500;
+    display: flex;
+    color: white;
+    font-family: 'Rambla', sans-serif;
+    gap: 300px
+}
+
+.legal {
+    margin-left: 115px;
+}
+
+.legal > *, .company > * {
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+}
+
+.ele {
+    font-size: 20px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.icon {
+    border-radius: 10px;
+}
